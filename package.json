@@ -1,0 +1,49 @@
+{
+  "name": "phone-catalog-backend",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@babel/core": "^7.23.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@mate-academy/eslint-config": "*",
+    "@mate-academy/students-ts-config": "0.0.4",
+    "@types/node": "16.18.71",
+    "@typescript-eslint/eslint-plugin": "5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "8.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "husky": "^8.0.3",
+    "lint-staged": "13.2.3",
+    "prettier": "^3.2.4",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "4.6.3"
+  },
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon src/app.ts",
+    "format": "prettier . --ignore-path .gitignore --write",
+    "lint": "eslint **/*.ts --ignore-path .eslintignore --fix",
+    "fix-code": "npm run format & npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fe-oct23-code-fairies/phone-catalog-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fe-oct23-code-fairies/phone-catalog-backend/issues"
+  },
+  "homepage": "https://github.com/fe-oct23-code-fairies/phone-catalog-backend#readme",
+  "lint-staged": {
+    "*.ts": "npm run fix-code"
+  }
+}
