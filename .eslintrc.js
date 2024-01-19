@@ -4,25 +4,26 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  ignorePatterns: [".eslintrc.js"],
-  extends: "@mate-academy/eslint-config",
+  ignorePatterns: ['.eslintrc.js'],
+  parser: '@typescript-eslint/parser',
+  extends: '@mate-academy/eslint-config',
   overrides: [
     {
       env: {
         node: true,
       },
-      files: [".eslintrc.{js,cjs}"],
+      files: ['.eslintrc.{js,cjs}'],
       parserOptions: {
-        sourceType: "script",
+        sourceType: 'script',
       },
     },
   ],
   parserOptions: {
-    ecmaVersion: "latest",
+    ecmaVersion: 'latest',
   },
   rules: {
-    "max-len": [
-      "error",
+    'max-len': [
+      'error',
       {
         ignoreTemplateLiterals: true,
         ignoreComments: true,
