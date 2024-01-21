@@ -2,14 +2,18 @@
   "name": "phone-catalog-backend",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "dependencies": {
     "@babel/core": "^7.23.7",
     "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
     "express": "^4.18.2"
   },
   "devDependencies": {
     "@mate-academy/eslint-config": "*",
     "@mate-academy/students-ts-config": "0.0.4",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
     "@types/node": "16.18.71",
     "@typescript-eslint/eslint-plugin": "5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
