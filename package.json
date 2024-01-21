@@ -36,10 +36,10 @@
     "start": "node build/app.js",
     "start-ts": "ts-node src/app.ts",
     "build": "tsc",
-    "pre-start": "npm install & npm run build",
+    "pre-start": "npm install && npm run build",
     "format": "prettier . --ignore-path .gitignore --write",
     "lint": "eslint **/*.ts --ignore-path .eslintignore --fix",
-    "fix-code": "npm run format & npm run lint"
+    "fix-code": "npm run format && npm run lint"
   },
   "repository": {
     "type": "git",
