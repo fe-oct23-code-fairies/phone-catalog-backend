@@ -1,5 +1,5 @@
 import { Request as ERequest, Response as EResponse } from 'express';
-import { getAllProducts, getProductByID } from './products.services';
+import { getAllProducts, getProductByID } from './products.services.js';
 
 export const getAll = (_: ERequest, res: EResponse) => {
   res.status(200).send(getAllProducts());

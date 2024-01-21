@@ -1,5 +1,5 @@
 import { readFileSync } from 'fs';
-import { Accessory } from '../../types/DetailedProduct';
+import type { Accessory } from '../../types/DetailedProduct.js';
 
 const accessories: Accessory[] = JSON.parse(
   readFileSync('./public/accessories.json', 'utf8'),

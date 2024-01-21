@@ -1,5 +1,5 @@
 import { readFileSync } from 'fs';
-import { Phone } from '../../types/DetailedProduct';
+import { Phone } from '../../types/DetailedProduct.js';
 
 const phones: Phone[] = JSON.parse(
   readFileSync('./public/phones.json', 'utf8'),

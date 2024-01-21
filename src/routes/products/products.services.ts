@@ -1,5 +1,5 @@
 import { readFileSync } from 'fs';
-import { Product } from '../../types/Product';
+import { Product } from '../../types/Product.js';
 
 const products: Product[] = JSON.parse(
   readFileSync('./public/products.json', 'utf8'),

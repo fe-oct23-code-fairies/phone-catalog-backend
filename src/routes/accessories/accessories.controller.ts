@@ -1,4 +1,4 @@
-import { Request as ERequest, Response as EResponse } from 'express';
+import type { Request as ERequest, Response as EResponse } from 'express';
 import {
   getAccessoriesByNameSpace,
   getAccessoryByID,
