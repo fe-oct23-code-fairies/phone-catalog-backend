@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getAll, getByID, getByNamespace } from './accessories.controller';
+import { getAll, getByID, getByNamespace } from './accessories.controller.js';
 
 export const accessoriesRouter = Router();
 

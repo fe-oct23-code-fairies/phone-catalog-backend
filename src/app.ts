@@ -3,10 +3,10 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import express from 'express';
 
-import { accessoriesRouter } from './routes/accessories/accessories.routes';
-import { phonesRouter } from './routes/phones/phones.routes';
-import { productsRouter } from './routes/products/products.routes';
-import { tabletsRouter } from './routes/tablets/tablets.routes';
+import { accessoriesRouter } from './routes/accessories/accessories.routes.js';
+import { phonesRouter } from './routes/phones/phones.routes.js';
+import { productsRouter } from './routes/products/products.routes.js';
+import { tabletsRouter } from './routes/tablets/tablets.routes.js';
 
 dotenv.config();
 

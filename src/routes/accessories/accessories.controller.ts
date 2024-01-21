@@ -3,7 +3,7 @@ import {
   getAccessoriesByNameSpace,
   getAccessoryByID,
   getAllAccessories,
-} from './accessories.services';
+} from './accessories.services.js';
 
 export const getAll = (_: ERequest, res: EResponse) => {
   res.status(200).send(getAllAccessories());

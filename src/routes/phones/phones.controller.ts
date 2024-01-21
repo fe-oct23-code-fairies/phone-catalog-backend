@@ -3,7 +3,7 @@ import {
   getAllPhones,
   getPhoneByID,
   getPhonesByNameSpace,
-} from './phones.services';
+} from './phones.services.js';
 
 export const getAll = (_: ERequest, res: EResponse) => {
   res.status(200).send(getAllPhones());

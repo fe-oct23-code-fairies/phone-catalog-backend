@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getAll, getByID, getByNamespace } from './tablets.controller';
+import { getAll, getByID, getByNamespace } from './tablets.controller.js';
 
 export const tabletsRouter = Router();
 

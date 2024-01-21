@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getAll, getByID, getByNamespace } from './phones.controller';
+import { getAll, getByID, getByNamespace } from './phones.controller.js';
 
 export const phonesRouter = Router();
 

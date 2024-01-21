@@ -3,7 +3,7 @@ import {
   getAllTablets,
   getTabletByID,
   getTabletsByNameSpace,
-} from './tablets.services';
+} from './tablets.services.js';
 
 export const getAll = (_: ERequest, res: EResponse) => {
   res.status(200).send(getAllTablets());
