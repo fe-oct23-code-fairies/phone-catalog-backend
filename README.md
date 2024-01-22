@@ -415,3 +415,12 @@ GET `/tablets/namespace/apple-ipad-pro-11-2021`
   ...
 ]
 ```
+
+## Static files
+
+All static file request should be sent on `/static`, followed by their path in `public` folder
+
+GET `/static/img/banner-accessories.png`
+
+Response: ![image](https://github.com/fe-oct23-code-fairies/phone-catalog-backend/assets/55620816/bd8c5ebc-84a1-48ff-bf1b-d2d26e32e13b)
+
