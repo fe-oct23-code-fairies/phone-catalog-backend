@@ -222,7 +222,7 @@ GET `/phones`
 ]
 ```
 
-GET `/accessories/apple-iphone-11-128gb-black`
+GET `/phones/apple-iphone-11-128gb-black`
 
 ```
 {
@@ -273,7 +273,7 @@ GET `/accessories/apple-iphone-11-128gb-black`
 } 
 ```
 
-GET `/accessories/namespace/apple-iphone-11`
+GET `/phones/namespace/apple-iphone-11`
 
 ```
 [
@@ -347,7 +347,7 @@ GET `/tablets`
 ]
 ```
 
-GET `/accessories/apple-ipad-pro-11-2021-128gb-spacegray`
+GET `/tablets/apple-ipad-pro-11-2021-128gb-spacegray`
 
 ```
 {
@@ -398,7 +398,7 @@ GET `/accessories/apple-ipad-pro-11-2021-128gb-spacegray`
 }
 ```
 
-GET `/accessories/namespace/apple-ipad-pro-11-2021`
+GET `/tablets/namespace/apple-ipad-pro-11-2021`
 
 ```
 [
