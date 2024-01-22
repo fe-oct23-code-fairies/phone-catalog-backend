@@ -37,7 +37,7 @@ GET `/products/1`
 ```
 {
   "id": 1,
-  "category": "phones",
+  "category": "",
   "itemId": "apple-iphone-7-32gb-black",
   "name": "Apple iPhone 7 32GB Black",
   "fullPrice": 400,
@@ -291,7 +291,7 @@ GET `/phones/namespace/apple-iphone-11`
 ]
 ```
 
-### Phones
+### Tablets
 
 GET `/tablets`
 
