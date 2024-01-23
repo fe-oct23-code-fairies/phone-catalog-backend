@@ -4,6 +4,7 @@ import {
   getAllDP,
   getDPById,
   getDPByNamespace,
+  getRecommendedForDP,
 } from '../detailedProducts.services.js';
 
 export const getAll = (_: ERequest, res: EResponse) => {
@@ -26,6 +27,18 @@ export const getByID = (req: ERequest, res: EResponse) => {
 export const getByNamespace = (req: ERequest, res: EResponse) => {
   const { namespaceId } = req.params;
   const tablets = getDPByNamespace(namespaceId, ProductName.Tablets);
+
+  if (tablets.length === 0) {
+    res.status(400).send('Not found');
+
+    return;
+  }
+
+  res.status(200).send(tablets);
+};
+
+export const getRecommended = (_: ERequest, res: EResponse) => {
+  const tablets = getRecommendedForDP(ProductName.Tablets);
 
   if (tablets.length === 0) {
     res.status(400).send('Not found');

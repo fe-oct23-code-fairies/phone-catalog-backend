@@ -1,9 +1,9 @@
-import { getDPByProductName } from '../products.services.js';
 import { DetailedDB, ProductName } from '../../types/DetailedProduct.js';
 import { db } from '../dataGetter.js';
+import { getRecommendedForPN } from '../products.services.js';
 
 export const getAllDP = (productName: ProductName) => {
-  return getDPByProductName(productName);
+  return db[productName as keyof DetailedDB];
 };
 
 export const getDPById = (id: string, productName: ProductName) => {
@@ -19,4 +19,8 @@ export const getDPByNamespace = (
   return db[productName as keyof DetailedDB].filter(
     (product) => product.namespaceId === namespaceId,
   );
+};
+
+export const getRecommendedForDP = (productName: ProductName) => {
+  return getRecommendedForPN(productName);
 };
