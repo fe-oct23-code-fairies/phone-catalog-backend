@@ -1,18 +1,19 @@
 import type { Request as ERequest, Response as EResponse } from 'express';
+import { ProductName } from '../../../types/DetailedProduct.js';
 import {
-  getAccessoriesByNameSpace,
-  getAccessoryByID,
-  getAllAccessories,
-} from './accessories.services.js';
+  getAllDP,
+  getDPById,
+  getDPByNamespace,
+} from '../detailedProducts.services.js';
 
 export const getAll = (_: ERequest, res: EResponse) => {
-  res.status(200).send(getAllAccessories());
+  res.status(200).send(getAllDP(ProductName.Accessories));
 };
 
 export const getByID = (req: ERequest, res: EResponse) => {
   const { id } = req.params;
 
-  const accessory = getAccessoryByID(id);
+  const accessory = getDPById(id, ProductName.Accessories);
 
   if (!accessory) {
     res.status(400).send('Not found');
@@ -25,7 +26,7 @@ export const getByID = (req: ERequest, res: EResponse) => {
 
 export const getByNamespace = (req: ERequest, res: EResponse) => {
   const { namespaceId } = req.params;
-  const accessories = getAccessoriesByNameSpace(namespaceId);
+  const accessories = getDPByNamespace(namespaceId, ProductName.Accessories);
 
   if (accessories.length === 0) {
     res.status(400).send('Not found');

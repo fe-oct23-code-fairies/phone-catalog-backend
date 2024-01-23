@@ -22,6 +22,7 @@
     "ecmaVersion": "latest"
   },
   "rules": {
+    "no-shadow": "off",
     "max-len": [
       "error",
       {

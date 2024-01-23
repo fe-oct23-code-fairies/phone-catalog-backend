@@ -1,13 +1,15 @@
+/* eslint-disable max-len */
 /* eslint-disable no-console */
+
 import cors from 'cors';
 import dotenv from 'dotenv';
 import express from 'express';
 import path from 'path';
 
-import { accessoriesRouter } from './routes/accessories/accessories.routes.js';
-import { phonesRouter } from './routes/phones/phones.routes.js';
+import { accessoriesRouter } from './routes/detailedProducts/accessories/accessories.routes.js';
+import { phonesRouter } from './routes/detailedProducts/phones/phones.routes.js';
+import { tabletsRouter } from './routes/detailedProducts/tablets/tablets.routes.js';
 import { productsRouter } from './routes/products/products.routes.js';
-import { tabletsRouter } from './routes/tablets/tablets.routes.js';
 
 dotenv.config();
 
@@ -25,8 +27,8 @@ app.use('/static', express.static(path.join(dirname, 'public')));
 
 app.use('/accessories', accessoriesRouter);
 app.use('/phones', phonesRouter);
-app.use('/products', productsRouter);
 app.use('/tablets', tabletsRouter);
+app.use('/products', productsRouter);
 
 app.listen(process.env.PORT);
 
