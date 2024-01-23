@@ -20,11 +20,7 @@ export const getAllProducts = (queryParams: queryParams) => {
     queryParams.productType,
   );
 
-  sortProducts(
-    productsToView,
-    queryParams.sortBy,
-    queryParams.sortOrder,
-  );
+  sortProducts(productsToView, queryParams.sortBy, queryParams.sortOrder);
 
   productsToView = getProductsOnPage(
     productsToView,
@@ -36,16 +32,16 @@ export const getAllProducts = (queryParams: queryParams) => {
 };
 
 export const getProductByID = (id: number) => {
-  return products.find(product => product.id === id);
+  return products.find((product) => product.id === id);
 };
 
 export const getDPByProductName = (productName: ProductName) => {
-  return products.filter(product => product.category === productName);
+  return products.filter((product) => product.category === productName);
 };
 
 export const getRecommendedForPN = (productName: ProductName) => {
   const productOfThisType = products.filter(
-    product => product.category === productName,
+    (product) => product.category === productName,
   );
 
   if (productOfThisType.length <= AMOUNT_OF_RECOMMENDED) {

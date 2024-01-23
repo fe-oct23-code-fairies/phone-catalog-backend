@@ -10,13 +10,15 @@ import { SortFields } from '../../types/QueryParams.js';
 export const getAll = (req: ERequest, res: EResponse) => {
   const { productType, limit, page, sortBy, sortOrder } = req.query;
 
-  res.status(200).send(getAllProducts({
-    productType: productType as string,
-    limit: limit as string,
-    page: page as string,
-    sortBy: sortBy as SortFields,
-    sortOrder: sortOrder as string,
-  }));
+  res.status(200).send(
+    getAllProducts({
+      productType: productType as string,
+      limit: limit as string,
+      page: page as string,
+      sortBy: sortBy as SortFields,
+      sortOrder: sortOrder as string,
+    }),
+  );
 };
 
 export const getByID = (req: ERequest, res: EResponse) => {

@@ -1,10 +1,7 @@
-import { SortFields } from '../types/QueryParams.js';
 import { Product } from '../types/Product.js';
+import { SortFields } from '../types/QueryParams.js';
 
-export const getRandomIndexes = (
-  amount: number,
-  maxValue: number,
-) => {
+export const getRandomIndexes = (amount: number, maxValue: number) => {
   const indexes: number[] = [];
 
   for (let i = 0; i < amount; i++) {
@@ -30,7 +27,7 @@ export const filterProductsByType = (
 
   if (productType?.trim()) {
     productsToView = productsToView.filter(
-      products => products.category === productType?.trim(),
+      (products) => products.category === productType?.trim(),
     );
   }
 
@@ -82,19 +79,13 @@ export const getProductsOnPage = (
   if (limit?.trim() && !isNaN(+limit)) {
     const limitNumber = +limit;
 
-    if (
-      page?.trim()
-      && !isNaN(+page)
-      && +page >= 1
-    ) {
-      productsToView = productsToView.slice(
-        (+page - 1) * (limitNumber),
-      );
+    if (page?.trim() && !isNaN(+page) && +page >= 1) {
+      productsToView = productsToView.slice((+page - 1) * limitNumber);
     }
 
-    productsToView.length = productsToView.length < limitNumber
-      ? productsToView.length
-      : limitNumber;
+    if (productsToView.length > limitNumber) {
+      productsToView.length = limitNumber;
+    }
   }
 
   return productsToView;
