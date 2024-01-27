@@ -1,5 +1,8 @@
-import { Product } from '../types/Product.js';
-import { SortFields } from '../types/QueryParams.js';
+import { OrderItem } from 'sequelize';
+
+interface Where {
+  [key: string]: string;
+}
 
 export const getRandomIndexes = (amount: number, maxValue: number) => {
   const indexes: number[] = [];
@@ -19,74 +22,41 @@ export const getRandomIndexes = (amount: number, maxValue: number) => {
   return indexes;
 };
 
-export const filterProductsByType = (
-  products: Product[],
-  productType?: string,
-) => {
-  let productsToView = [...products];
+export const filterProductsByType = (productType?: string) => {
+  const where: Where = {};
 
-  if (productType?.trim()) {
-    productsToView = productsToView.filter(
-      (products) => products.category === productType?.trim(),
-    );
+  if (productType && productType.trim()) {
+    where.category = productType;
   }
 
-  return productsToView;
+  return where;
 };
 
-export const sortProducts = (
-  productsToView: Product[],
-  sortBy?: string,
-  sortOrder?: string,
-) => {
-  if (sortBy?.trim()) {
-    productsToView.sort((a, b) => {
-      let result;
+export const sortProducts = (sortBy?: string, sortOrder?: string) => {
+  const order: OrderItem = ['id', 'ASC'];
 
-      switch (sortBy?.trim()) {
-        case SortFields.Price:
-          result = a.fullPrice - b.fullPrice;
-          break;
-
-        case SortFields.Year:
-          result = a.year - b.year;
-          break;
-
-        case SortFields.Name:
-          result = a.name.localeCompare(b.name);
-          break;
-
-        default:
-          return 0;
-      }
-
-      if (sortOrder && sortOrder.trim() === 'desc') {
-        result *= -1;
-      }
-
-      return result;
-    });
+  if (sortBy && sortBy.trim()) {
+    order[0] = sortBy;
   }
+
+  if (sortOrder && sortOrder.trim()) {
+    order[1] = sortOrder;
+  }
+
+  return order;
 };
 
-export const getProductsOnPage = (
-  products: Product[],
-  limit?: string,
-  page?: string,
-) => {
-  let productsToView = [...products];
+export const getProductsOnPage = (limit?: string, page?: string) => {
+  let limitNumber;
+  let offset;
 
-  if (limit?.trim() && !isNaN(+limit)) {
-    const limitNumber = +limit;
+  if (limit && limit.trim() && !isNaN(+limit)) {
+    limitNumber = +limit;
 
-    if (page?.trim() && !isNaN(+page) && +page >= 1) {
-      productsToView = productsToView.slice((+page - 1) * limitNumber);
-    }
-
-    if (productsToView.length > limitNumber) {
-      productsToView.length = limitNumber;
+    if (page && page.trim() && !isNaN(+page) && +page >= 1) {
+      offset = (+page - 1) * limitNumber;
     }
   }
 
-  return productsToView;
+  return [limitNumber, offset];
 };

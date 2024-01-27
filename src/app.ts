@@ -1,20 +1,22 @@
-/* eslint-disable max-len */
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-console */
 
-import cors from 'cors';
 import dotenv from 'dotenv';
-import express from 'express';
-import { addRouting } from './routes/routes.js';
+
+import { connectToDb, sequelize } from './db/db.js';
+import { serverInit } from './server.js';
 
 dotenv.config();
 
-const app = express();
+const app = async() => {
+  const app = serverInit();
 
-app.use(express.json());
-app.use(cors());
+  await connectToDb(sequelize);
 
-addRouting(app);
+  app.listen(process.env.PORT);
 
-app.listen(process.env.PORT);
+  console.log(`App is listening on port ${process.env.PORT}`);
+};
 
-console.log(`App is listening on port ${process.env.PORT}`);
+app();
+

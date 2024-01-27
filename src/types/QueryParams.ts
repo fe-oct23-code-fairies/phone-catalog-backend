@@ -6,9 +6,9 @@ export enum SortFields {
 }
 
 export interface queryParams {
-  productType: string | undefined;
-  limit: string | undefined;
-  page: string | undefined;
-  sortBy: SortFields | undefined;
-  sortOrder: string | undefined;
+  productType?: string | undefined;
+  limit?: string | undefined;
+  page?: string | undefined;
+  sortBy?: SortFields | undefined;
+  sortOrder?: string | undefined;
 }

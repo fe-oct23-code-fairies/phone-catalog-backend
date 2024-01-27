@@ -8,7 +8,7 @@
     "price": 375,
     "screen": "4.7' IPS",
     "capacity": "32GB",
-    "color": "black",
+    "colour": "black",
     "ram": "2GB",
     "year": 2016,
     "image": "img/phones/apple-iphone-7/black/00.jpg"
@@ -22,7 +22,7 @@
     "price": 500,
     "screen": "5.5' IPS",
     "capacity": "32GB",
-    "color": "black",
+    "colour": "black",
     "ram": "3GB",
     "year": 2016,
     "image": "img/phones/apple-iphone-7-plus/black/00.jpg"
@@ -36,7 +36,7 @@
     "price": 550,
     "screen": "4.7' IPS",
     "capacity": "64GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "2GB",
     "year": 2017,
     "image": "img/phones/apple-iphone-8/gold/00.jpg"
@@ -50,7 +50,7 @@
     "price": 880,
     "screen": "6.1' IPS",
     "capacity": "64GB",
-    "color": "black",
+    "colour": "black",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -64,7 +64,7 @@
     "price": 1050,
     "screen": "6.1' IPS",
     "capacity": "128GB",
-    "color": "yellow",
+    "colour": "yellow",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/yellow/00.jpg"
@@ -78,7 +78,7 @@
     "price": 1115,
     "screen": "6.1' IPS",
     "capacity": "256GB",
-    "color": "green",
+    "colour": "green",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/green/00.jpg"
@@ -92,7 +92,7 @@
     "price": 1270,
     "screen": "5.8' OLED",
     "capacity": "64GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
@@ -106,7 +106,7 @@
     "price": 1570,
     "screen": "5.8' OLED",
     "capacity": "256GB",
-    "color": "midnightgreen",
+    "colour": "midnightgreen",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.jpg"
@@ -120,7 +120,7 @@
     "price": 1780,
     "screen": "5.8' OLED",
     "capacity": "512GB",
-    "color": "silver",
+    "colour": "silver",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
@@ -134,7 +134,7 @@
     "price": 1400,
     "screen": "6.5' OLED",
     "capacity": "64GB",
-    "color": "spacegray",
+    "colour": "spacegray",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.jpg"
@@ -148,7 +148,7 @@
     "price": 1680,
     "screen": "6.5' OLED",
     "capacity": "256GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro-max/gold/00.jpg"
@@ -162,7 +162,7 @@
     "price": 1930,
     "screen": "6.5' OLED",
     "capacity": "512GB",
-    "color": "spacegray",
+    "colour": "spacegray",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.jpg"
@@ -176,7 +176,7 @@
     "price": 670,
     "screen": "6.1' IPS",
     "capacity": "64GB",
-    "color": "red",
+    "colour": "red",
     "ram": "3GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xr/red/00.jpg"
@@ -190,7 +190,7 @@
     "price": 815,
     "screen": "6.1' IPS",
     "capacity": "128GB",
-    "color": "white",
+    "colour": "white",
     "ram": "3GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xr/white/00.jpg"
@@ -204,7 +204,7 @@
     "price": 720,
     "screen": "5.8' OLED",
     "capacity": "64GB",
-    "color": "spacegray",
+    "colour": "spacegray",
     "ram": "4GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xs/spacegray/00.jpg"
@@ -218,7 +218,7 @@
     "price": 900,
     "screen": "6.5' OLED",
     "capacity": "64GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "4GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xs-max/gold/00.jpg"
@@ -232,7 +232,7 @@
     "price": 1000,
     "screen": "6.5' OLED",
     "capacity": "256GB",
-    "color": "silver",
+    "colour": "silver",
     "ram": "4GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xs-max/silver/00.jpg"
@@ -246,7 +246,7 @@
     "price": 375,
     "screen": "4.7' IPS",
     "capacity": "32GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "2GB",
     "year": 2016,
     "image": "img/phones/apple-iphone-7/gold/00.jpg"
@@ -260,7 +260,7 @@
     "price": 500,
     "screen": "5.5' IPS",
     "capacity": "32GB",
-    "color": "silver",
+    "colour": "silver",
     "ram": "3GB",
     "year": 2016,
     "image": "img/phones/apple-iphone-7-plus/silver/00.jpg"
@@ -274,7 +274,7 @@
     "price": 550,
     "screen": "4.7' IPS",
     "capacity": "64GB",
-    "color": "spacegray",
+    "colour": "spacegray",
     "ram": "2GB",
     "year": 2017,
     "image": "img/phones/apple-iphone-8/spacegray/00.jpg"
@@ -288,7 +288,7 @@
     "price": 880,
     "screen": "6.1' IPS",
     "capacity": "64GB",
-    "color": "green",
+    "colour": "green",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/green/00.jpg"
@@ -302,7 +302,7 @@
     "price": 1050,
     "screen": "6.1' IPS",
     "capacity": "128GB",
-    "color": "purple",
+    "colour": "purple",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/purple/00.jpg"
@@ -316,7 +316,7 @@
     "price": 1115,
     "screen": "6.1' IPS",
     "capacity": "256GB",
-    "color": "yellow",
+    "colour": "yellow",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/yellow/00.jpg"
@@ -330,7 +330,7 @@
     "price": 1570,
     "screen": "5.8' OLED",
     "capacity": "256GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
@@ -344,7 +344,7 @@
     "price": 1780,
     "screen": "5.8' OLED",
     "capacity": "512GB",
-    "color": "spacegray",
+    "colour": "spacegray",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
@@ -358,7 +358,7 @@
     "price": 1400,
     "screen": "6.5' OLED",
     "capacity": "64GB",
-    "color": "silver",
+    "colour": "silver",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro-max/silver/00.jpg"
@@ -372,7 +372,7 @@
     "price": 1680,
     "screen": "6.5' OLED",
     "capacity": "256GB",
-    "color": "midnightgreen",
+    "colour": "midnightgreen",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg"
@@ -386,7 +386,7 @@
     "price": 1930,
     "screen": "6.5' OLED",
     "capacity": "512GB",
-    "color": "silver",
+    "colour": "silver",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro-max/silver/00.jpg"
@@ -400,7 +400,7 @@
     "price": 670,
     "screen": "6.1' IPS",
     "capacity": "64GB",
-    "color": "white",
+    "colour": "white",
     "ram": "3GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xr/white/00.jpg"
@@ -414,7 +414,7 @@
     "price": 815,
     "screen": "6.1' IPS",
     "capacity": "128GB",
-    "color": "coral",
+    "colour": "coral",
     "ram": "3GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xr/coral/00.jpg"
@@ -428,7 +428,7 @@
     "price": 720,
     "screen": "5.8' OLED",
     "capacity": "64GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "4GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xs/gold/00.jpg"
@@ -442,7 +442,7 @@
     "price": 900,
     "screen": "5.8' OLED",
     "capacity": "256GB",
-    "color": "spacegray",
+    "colour": "spacegray",
     "ram": "4GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xs/spacegray/00.jpg"
@@ -456,7 +456,7 @@
     "price": 900,
     "screen": "6.5' OLED",
     "capacity": "64GB",
-    "color": "silver",
+    "colour": "silver",
     "ram": "4GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xs-max/silver/00.jpg"
@@ -470,7 +470,7 @@
     "price": 1000,
     "screen": "6.5' OLED",
     "capacity": "256GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "4GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xs-max/gold/00.jpg"
@@ -484,7 +484,7 @@
     "price": 375,
     "screen": "4.7' IPS",
     "capacity": "32GB",
-    "color": "rosegold",
+    "colour": "rosegold",
     "ram": "2GB",
     "year": 2016,
     "image": "img/phones/apple-iphone-7/rosegold/00.jpg"
@@ -498,7 +498,7 @@
     "price": 880,
     "screen": "6.1' IPS",
     "capacity": "64GB",
-    "color": "purple",
+    "colour": "purple",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/purple/00.jpg"
@@ -512,7 +512,7 @@
     "price": 880,
     "screen": "6.1' IPS",
     "capacity": "64GB",
-    "color": "red",
+    "colour": "red",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/red/00.jpg"
@@ -526,7 +526,7 @@
     "price": 1050,
     "screen": "6.1' IPS",
     "capacity": "128GB",
-    "color": "black",
+    "colour": "black",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -540,7 +540,7 @@
     "price": 1115,
     "screen": "6.1' IPS",
     "capacity": "256GB",
-    "color": "red",
+    "colour": "red",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/red/00.jpg"
@@ -554,7 +554,7 @@
     "price": 1270,
     "screen": "5.8' OLED",
     "capacity": "64GB",
-    "color": "midnightgreen",
+    "colour": "midnightgreen",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.jpg"
@@ -568,7 +568,7 @@
     "price": 1570,
     "screen": "5.8' OLED",
     "capacity": "256GB",
-    "color": "silver",
+    "colour": "silver",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
@@ -582,7 +582,7 @@
     "price": 1780,
     "screen": "5.8' OLED",
     "capacity": "512GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
@@ -596,7 +596,7 @@
     "price": 1400,
     "screen": "6.5' OLED",
     "capacity": "64GB",
-    "color": "midnightgreen",
+    "colour": "midnightgreen",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg"
@@ -610,7 +610,7 @@
     "price": 1680,
     "screen": "6.5' OLED",
     "capacity": "256GB",
-    "color": "spacegray",
+    "colour": "spacegray",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.jpg"
@@ -624,7 +624,7 @@
     "price": 670,
     "screen": "6.1' IPS",
     "capacity": "64GB",
-    "color": "coral",
+    "colour": "coral",
     "ram": "3GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xr/coral/00.jpg"
@@ -638,7 +638,7 @@
     "price": 815,
     "screen": "6.1' IPS",
     "capacity": "128GB",
-    "color": "red",
+    "colour": "red",
     "ram": "3GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xr/red/00.jpg"
@@ -652,7 +652,7 @@
     "price": 900,
     "screen": "5.8' OLED",
     "capacity": "256GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "4GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xs/gold/00.jpg"
@@ -666,7 +666,7 @@
     "price": 900,
     "screen": "6.5' OLED",
     "capacity": "64GB",
-    "color": "spacegray",
+    "colour": "spacegray",
     "ram": "4GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xs-max/spacegray/00.jpg"
@@ -680,7 +680,7 @@
     "price": 500,
     "screen": "5.5' IPS",
     "capacity": "32GB",
-    "color": "rosegold",
+    "colour": "rosegold",
     "ram": "3GB",
     "year": 2016,
     "image": "img/phones/apple-iphone-7-plus/rosegold/00.jpg"
@@ -694,7 +694,7 @@
     "price": 880,
     "screen": "6.1' IPS",
     "capacity": "64GB",
-    "color": "white",
+    "colour": "white",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/white/00.jpg"
@@ -708,7 +708,7 @@
     "price": 1050,
     "screen": "6.1' IPS",
     "capacity": "128GB",
-    "color": "green",
+    "colour": "green",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/green/00.jpg"
@@ -722,7 +722,7 @@
     "price": 1050,
     "screen": "6.1' IPS",
     "capacity": "128GB",
-    "color": "white",
+    "colour": "white",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/white/00.jpg"
@@ -736,7 +736,7 @@
     "price": 1115,
     "screen": "6.1' IPS",
     "capacity": "256GB",
-    "color": "black",
+    "colour": "black",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -750,7 +750,7 @@
     "price": 1115,
     "screen": "6.1' IPS",
     "capacity": "256GB",
-    "color": "white",
+    "colour": "white",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/white/00.jpg"
@@ -764,7 +764,7 @@
     "price": 1270,
     "screen": "5.8' OLED",
     "capacity": "64GB",
-    "color": "spacegray",
+    "colour": "spacegray",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
@@ -778,7 +778,7 @@
     "price": 1780,
     "screen": "5.8' OLED",
     "capacity": "512GB",
-    "color": "midnightgreen",
+    "colour": "midnightgreen",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.jpg"
@@ -792,7 +792,7 @@
     "price": 1400,
     "screen": "6.5' OLED",
     "capacity": "64GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro-max/gold/00.jpg"
@@ -806,7 +806,7 @@
     "price": 1680,
     "screen": "6.5' OLED",
     "capacity": "256GB",
-    "color": "silver",
+    "colour": "silver",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro-max/silver/00.jpg"
@@ -820,7 +820,7 @@
     "price": 1930,
     "screen": "6.5' OLED",
     "capacity": "512GB",
-    "color": "midnightgreen",
+    "colour": "midnightgreen",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.jpg"
@@ -834,7 +834,7 @@
     "price": 815,
     "screen": "6.1' IPS",
     "capacity": "128GB",
-    "color": "yellow",
+    "colour": "yellow",
     "ram": "3GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xr/yellow/00.jpg"
@@ -848,7 +848,7 @@
     "price": 375,
     "screen": "4.7' IPS",
     "capacity": "32GB",
-    "color": "silver",
+    "colour": "silver",
     "ram": "2GB",
     "year": 2016,
     "image": "img/phones/apple-iphone-7/silver/00.jpg"
@@ -862,7 +862,7 @@
     "price": 1115,
     "screen": "6.1' IPS",
     "capacity": "256GB",
-    "color": "purple",
+    "colour": "purple",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/purple/00.jpg"
@@ -876,7 +876,7 @@
     "price": 1930,
     "screen": "6.5' OLED",
     "capacity": "512GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro-max/gold/00.jpg"
@@ -890,7 +890,7 @@
     "price": 880,
     "screen": "6.1' IPS",
     "capacity": "64GB",
-    "color": "yellow",
+    "colour": "yellow",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/yellow/00.jpg"
@@ -904,7 +904,7 @@
     "price": 1570,
     "screen": "5.8' OLED",
     "capacity": "256GB",
-    "color": "spacegray",
+    "colour": "spacegray",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
@@ -918,7 +918,7 @@
     "price": 550,
     "screen": "4.7' IPS",
     "capacity": "64GB",
-    "color": "silver",
+    "colour": "silver",
     "ram": "2GB",
     "year": 2017,
     "image": "img/phones/apple-iphone-8/silver/00.jpg"
@@ -932,7 +932,7 @@
     "price": 1050,
     "screen": "6.1' IPS",
     "capacity": "128GB",
-    "color": "red",
+    "colour": "red",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11/red/00.jpg"
@@ -946,7 +946,7 @@
     "price": 1000,
     "screen": "6.5' OLED",
     "capacity": "256GB",
-    "color": "spacegray",
+    "colour": "spacegray",
     "ram": "4GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xs-max/spacegray/00.jpg"
@@ -960,7 +960,7 @@
     "price": 500,
     "screen": "5.5' IPS",
     "capacity": "32GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "3GB",
     "year": 2016,
     "image": "img/phones/apple-iphone-7-plus/gold/00.jpg"
@@ -974,7 +974,7 @@
     "price": 1270,
     "screen": "5.8' OLED",
     "capacity": "64GB",
-    "color": "silver",
+    "colour": "silver",
     "ram": "4GB",
     "year": 2019,
     "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
@@ -988,7 +988,7 @@
     "price": 670,
     "screen": "6.1' IPS",
     "capacity": "64GB",
-    "color": "yellow",
+    "colour": "yellow",
     "ram": "3GB",
     "year": 2018,
     "image": "img/phones/apple-iphone-xr/yellow/00.jpg"
@@ -1002,7 +1002,7 @@
     "price": 980,
     "screen": "6.1' IPS",
     "capacity": "32GB",
-    "color": "midnight",
+    "colour": "midnight",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1016,7 +1016,7 @@
     "price": 1120,
     "screen": "6.1' IPS",
     "capacity": "256GB",
-    "color": "midnight",
+    "colour": "midnight",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1030,7 +1030,7 @@
     "price": 1420,
     "screen": "6.1' IPS",
     "capacity": "512GB",
-    "color": "midnight",
+    "colour": "midnight",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1044,7 +1044,7 @@
     "price": 980,
     "screen": "6.1' IPS",
     "capacity": "128GB",
-    "color": "yellow",
+    "colour": "yellow",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/yellow/00.jpg"
@@ -1058,7 +1058,7 @@
     "price": 1120,
     "screen": "6.1' IPS",
     "capacity": "256GB",
-    "color": "yellow",
+    "colour": "yellow",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/yellow/00.jpg"
@@ -1072,7 +1072,7 @@
     "price": 1420,
     "screen": "6.1' IPS",
     "capacity": "512GB",
-    "color": "yellow",
+    "colour": "yellow",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/yellow/00.jpg"
@@ -1086,7 +1086,7 @@
     "price": 980,
     "screen": "6.1' IPS",
     "capacity": "128GB",
-    "color": "purple",
+    "colour": "purple",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/purple/00.jpg"
@@ -1100,7 +1100,7 @@
     "price": 1120,
     "screen": "6.1' IPS",
     "capacity": "256GB",
-    "color": "purple",
+    "colour": "purple",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/purple/00.jpg"
@@ -1114,7 +1114,7 @@
     "price": 1420,
     "screen": "6.1' IPS",
     "capacity": "512GB",
-    "color": "purple",
+    "colour": "purple",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/purple/00.jpg"
@@ -1128,7 +1128,7 @@
     "price": 1068,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "spaceblack",
+    "colour": "spaceblack",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
@@ -1142,7 +1142,7 @@
     "price": 1220,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "spaceblack",
+    "colour": "spaceblack",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
@@ -1156,7 +1156,7 @@
     "price": 1530,
     "screen": "6.1' OLED",
     "capacity": "512GB",
-    "color": "spaceblack",
+    "colour": "spaceblack",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
@@ -1170,7 +1170,7 @@
     "price": 1520,
     "screen": "6.1' OLED",
     "capacity": "1TB",
-    "color": "spaceblack",
+    "colour": "spaceblack",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/spacegray/00.jpg"
@@ -1184,7 +1184,7 @@
     "price": 740,
     "screen": "6.1' OLED",
     "capacity": "64GB",
-    "color": "purple",
+    "colour": "purple",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/purple/00.jpg"
@@ -1198,7 +1198,7 @@
     "price": 800,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "purple",
+    "colour": "purple",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/purple/00.jpg"
@@ -1212,7 +1212,7 @@
     "price": 940,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "purple",
+    "colour": "purple",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/purple/00.jpg"
@@ -1226,7 +1226,7 @@
     "price": 740,
     "screen": "6.1' OLED",
     "capacity": "64GB",
-    "color": "white",
+    "colour": "white",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/white/00.jpg"
@@ -1240,7 +1240,7 @@
     "price": 800,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "white",
+    "colour": "white",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/white/00.jpg"
@@ -1254,7 +1254,7 @@
     "price": 940,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "white",
+    "colour": "white",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/white/00.jpg"
@@ -1268,7 +1268,7 @@
     "price": 740,
     "screen": "6.1' OLED",
     "capacity": "64GB",
-    "color": "red",
+    "colour": "red",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/red/00.jpg"
@@ -1282,7 +1282,7 @@
     "price": 800,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "red",
+    "colour": "red",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/red/00.jpg"
@@ -1296,7 +1296,7 @@
     "price": 940,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "red",
+    "colour": "red",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/red/00.jpg"
@@ -1310,7 +1310,7 @@
     "price": 740,
     "screen": "6.1' OLED",
     "capacity": "64GB",
-    "color": "black",
+    "colour": "black",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1324,7 +1324,7 @@
     "price": 800,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "black",
+    "colour": "black",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1338,7 +1338,7 @@
     "price": 940,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "black",
+    "colour": "black",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1352,7 +1352,7 @@
     "price": 760,
     "screen": "6.1' OLED",
     "capacity": "64GB",
-    "color": "blue",
+    "colour": "blue",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
@@ -1366,7 +1366,7 @@
     "price": 820,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "blue",
+    "colour": "blue",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
@@ -1380,7 +1380,7 @@
     "price": 1040,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "blue",
+    "colour": "blue",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
@@ -1394,7 +1394,7 @@
     "price": 760,
     "screen": "6.1' OLED",
     "capacity": "64GB",
-    "color": "white",
+    "colour": "white",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/white/00.jpg"
@@ -1408,7 +1408,7 @@
     "price": 820,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "white",
+    "colour": "white",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/white/00.jpg"
@@ -1422,7 +1422,7 @@
     "price": 1040,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "white",
+    "colour": "white",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/white/00.jpg"
@@ -1436,7 +1436,7 @@
     "price": 760,
     "screen": "6.1' OLED",
     "capacity": "64GB",
-    "color": "pink",
+    "colour": "pink",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-7/rosegold/00.jpg"
@@ -1450,7 +1450,7 @@
     "price": 820,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "pink",
+    "colour": "pink",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-7/rosegold/00.jpg"
@@ -1464,7 +1464,7 @@
     "price": 1040,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "pink",
+    "colour": "pink",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-7/rosegold/00.jpg"
@@ -1478,7 +1478,7 @@
     "price": 760,
     "screen": "6.1' OLED",
     "capacity": "64GB",
-    "color": "midnight",
+    "colour": "midnight",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1492,7 +1492,7 @@
     "price": 820,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "midnight",
+    "colour": "midnight",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1506,7 +1506,7 @@
     "price": 1040,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "midnight",
+    "colour": "midnight",
     "ram": "4GB",
     "year": 2020,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1520,7 +1520,7 @@
     "price": 1068,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "sierrablue",
+    "colour": "sierrablue",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
@@ -1534,7 +1534,7 @@
     "price": 1220,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "sierrablue",
+    "colour": "sierrablue",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
@@ -1548,7 +1548,7 @@
     "price": 1530,
     "screen": "6.1' OLED",
     "capacity": "512GB",
-    "color": "sierrablue",
+    "colour": "sierrablue",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
@@ -1562,7 +1562,7 @@
     "price": 1520,
     "screen": "6.1' OLED",
     "capacity": "1TB",
-    "color": "sierrablue",
+    "colour": "sierrablue",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/silver/00.jpg"
@@ -1576,7 +1576,7 @@
     "price": 1068,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
@@ -1590,7 +1590,7 @@
     "price": 1220,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
@@ -1604,7 +1604,7 @@
     "price": 1530,
     "screen": "6.1' OLED",
     "capacity": "512GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
@@ -1618,7 +1618,7 @@
     "price": 1520,
     "screen": "6.1' OLED",
     "capacity": "1TB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
@@ -1632,7 +1632,7 @@
     "price": 1068,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "graphite",
+    "colour": "graphite",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1646,7 +1646,7 @@
     "price": 1220,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "graphite",
+    "colour": "graphite",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1660,7 +1660,7 @@
     "price": 1530,
     "screen": "6.1' OLED",
     "capacity": "512GB",
-    "color": "graphite",
+    "colour": "graphite",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1674,7 +1674,7 @@
     "price": 1520,
     "screen": "6.1' OLED",
     "capacity": "1TB",
-    "color": "graphite",
+    "colour": "graphite",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11/black/00.jpg"
@@ -1688,7 +1688,7 @@
     "price": 169,
     "screen": "1.3' OLED",
     "capacity": "38mm",
-    "color": "space gray",
+    "colour": "space gray",
     "ram": "768MB",
     "year": 2017,
     "image": "img/accessories/apple-watch-series-3/space-gray/00.webp"
@@ -1702,7 +1702,7 @@
     "price": 219,
     "screen": "1.3' OLED",
     "capacity": "42mm",
-    "color": "space gray",
+    "colour": "space gray",
     "ram": "768MB",
     "year": 2017,
     "image": "img/accessories/apple-watch-series-3/space-gray/00.webp"
@@ -1716,7 +1716,7 @@
     "price": 169,
     "screen": "1.3' OLED",
     "capacity": "38mm",
-    "color": "gold",
+    "colour": "gold",
     "ram": "768MB",
     "year": 2017,
     "image": "img/accessories/apple-watch-series-3/gold/00.webp"
@@ -1730,7 +1730,7 @@
     "price": 219,
     "screen": "1.3' OLED",
     "capacity": "42mm",
-    "color": "gold",
+    "colour": "gold",
     "ram": "768MB",
     "year": 2017,
     "image": "img/accessories/apple-watch-series-3/gold/00.webp"
@@ -1744,7 +1744,7 @@
     "price": 169,
     "screen": "1.3' OLED",
     "capacity": "38mm",
-    "color": "silver",
+    "colour": "silver",
     "ram": "768MB",
     "year": 2017,
     "image": "img/accessories/apple-watch-series-3/silver/00.webp"
@@ -1758,7 +1758,7 @@
     "price": 219,
     "screen": "1.3' OLED",
     "capacity": "42mm",
-    "color": "silver",
+    "colour": "silver",
     "ram": "768MB",
     "year": 2017,
     "image": "img/accessories/apple-watch-series-3/silver/00.webp"
@@ -1772,7 +1772,7 @@
     "price": 329,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "space gray",
+    "colour": "space gray",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-series-6/space-gray/00.webp"
@@ -1786,7 +1786,7 @@
     "price": 359,
     "screen": "1.57' OLED",
     "capacity": "44mm",
-    "color": "space gray",
+    "colour": "space gray",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-series-6/space-gray/00.webp"
@@ -1800,7 +1800,7 @@
     "price": 329,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "silver",
+    "colour": "silver",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-series-6/silver/00.webp"
@@ -1814,7 +1814,7 @@
     "price": 359,
     "screen": "1.57' OLED",
     "capacity": "44mm",
-    "color": "silver",
+    "colour": "silver",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-series-6/silver/00.webp"
@@ -1828,7 +1828,7 @@
     "price": 329,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "gold",
+    "colour": "gold",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-series-6/gold/00.webp"
@@ -1842,7 +1842,7 @@
     "price": 359,
     "screen": "1.57' OLED",
     "capacity": "44mm",
-    "color": "gold",
+    "colour": "gold",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-series-6/gold/00.webp"
@@ -1856,7 +1856,7 @@
     "price": 329,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "blue",
+    "colour": "blue",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-series-6/blue/00.webp"
@@ -1870,7 +1870,7 @@
     "price": 359,
     "screen": "1.57' OLED",
     "capacity": "44mm",
-    "color": "blue",
+    "colour": "blue",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-series-6/blue/00.webp"
@@ -1884,7 +1884,7 @@
     "price": 329,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "red",
+    "colour": "red",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-series-6/red/00.webp"
@@ -1898,7 +1898,7 @@
     "price": 359,
     "screen": "1.57' OLED",
     "capacity": "44mm",
-    "color": "red",
+    "colour": "red",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-series-6/red/00.webp"
@@ -1912,7 +1912,7 @@
     "price": 299,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "silver",
+    "colour": "silver",
     "ram": "1GB",
     "year": 2019,
     "image": "img/accessories/apple-watch-series-5/silver/00.webp"
@@ -1926,7 +1926,7 @@
     "price": 399,
     "screen": "1.78' LTPO OLED",
     "capacity": "44mm",
-    "color": "silver",
+    "colour": "silver",
     "ram": "1GB",
     "year": 2019,
     "image": "img/accessories/apple-watch-series-5/silver/00.webp"
@@ -1940,7 +1940,7 @@
     "price": 299,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "gold",
+    "colour": "gold",
     "ram": "1GB",
     "year": 2019,
     "image": "img/accessories/apple-watch-series-5/gold/00.webp"
@@ -1954,7 +1954,7 @@
     "price": 399,
     "screen": "1.78' LTPO OLED",
     "capacity": "44mm",
-    "color": "gold",
+    "colour": "gold",
     "ram": "1GB",
     "year": 2019,
     "image": "img/accessories/apple-watch-series-5/gold/00.webp"
@@ -1968,7 +1968,7 @@
     "price": 299,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "space-gray",
+    "colour": "space-gray",
     "ram": "1GB",
     "year": 2019,
     "image": "img/accessories/apple-watch-series-5/space-gray/00.webp"
@@ -1982,7 +1982,7 @@
     "price": 399,
     "screen": "1.78' LTPO OLED",
     "capacity": "44mm",
-    "color": "space-gray",
+    "colour": "space-gray",
     "ram": "1GB",
     "year": 2019,
     "image": "img/accessories/apple-watch-series-5/space-gray/00.webp"
@@ -1996,7 +1996,7 @@
     "price": 349,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "silver",
+    "colour": "silver",
     "ram": "0.75GB",
     "year": 2019,
     "image": "img/accessories/apple-watch-series-4/silver/00.webp"
@@ -2010,7 +2010,7 @@
     "price": 379,
     "screen": "1.78' OLED",
     "capacity": "44mm",
-    "color": "silver",
+    "colour": "silver",
     "ram": "0.75GB",
     "year": 2019,
     "image": "img/accessories/apple-watch-series-4/silver/00.webp"
@@ -2024,7 +2024,7 @@
     "price": 349,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "gold",
+    "colour": "gold",
     "ram": "0.75GB",
     "year": 2019,
     "image": "img/accessories/apple-watch-series-4/gold/00.webp"
@@ -2038,7 +2038,7 @@
     "price": 379,
     "screen": "1.78' OLED",
     "capacity": "44mm",
-    "color": "gold",
+    "colour": "gold",
     "ram": "0.75GB",
     "year": 2019,
     "image": "img/accessories/apple-watch-series-4/gold/00.webp"
@@ -2052,7 +2052,7 @@
     "price": 349,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "space-gray",
+    "colour": "space-gray",
     "ram": "0.75GB",
     "year": 2019,
     "image": "img/accessories/apple-watch-series-4/space-gray/00.webp"
@@ -2066,7 +2066,7 @@
     "price": 379,
     "screen": "1.78' OLED",
     "capacity": "44mm",
-    "color": "space-gray",
+    "colour": "space-gray",
     "ram": "0.75GB",
     "year": 2019,
     "image": "img/accessories/apple-watch-series-4/space-gray/00.webp"
@@ -2080,7 +2080,7 @@
     "price": 249,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "silver",
+    "colour": "silver",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-se/silver/00.webp"
@@ -2094,7 +2094,7 @@
     "price": 279,
     "screen": "1.78' OLED",
     "capacity": "44mm",
-    "color": "silver",
+    "colour": "silver",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-se/silver/00.webp"
@@ -2108,7 +2108,7 @@
     "price": 259,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "gold",
+    "colour": "gold",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-se/gold/00.webp"
@@ -2122,7 +2122,7 @@
     "price": 289,
     "screen": "1.78' OLED",
     "capacity": "44mm",
-    "color": "gold",
+    "colour": "gold",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-se/gold/00.webp"
@@ -2136,7 +2136,7 @@
     "price": 259,
     "screen": "1.57' OLED",
     "capacity": "40mm",
-    "color": "space gray",
+    "colour": "space gray",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-se/space-gray/00.webp"
@@ -2150,7 +2150,7 @@
     "price": 289,
     "screen": "1.78' OLED",
     "capacity": "44mm",
-    "color": "space gray",
+    "colour": "space gray",
     "ram": "1GB",
     "year": 2020,
     "image": "img/accessories/apple-watch-se/space-gray/00.webp"
@@ -2163,7 +2163,7 @@
     "capacity": "128GB",
     "fullPrice": 799,
     "price": 749,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
@@ -2177,7 +2177,7 @@
     "capacity": "128GB",
     "fullPrice": 799,
     "price": 749,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-pro-11-2021/silver/00.webp",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
@@ -2191,7 +2191,7 @@
     "capacity": "256GB",
     "fullPrice": 829,
     "price": 799,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
@@ -2205,7 +2205,7 @@
     "capacity": "256GB",
     "fullPrice": 829,
     "price": 799,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-pro-11-2021/silver/00.webp",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
@@ -2219,7 +2219,7 @@
     "capacity": "512GB",
     "fullPrice": 869,
     "price": 819,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
@@ -2233,7 +2233,7 @@
     "capacity": "512GB",
     "fullPrice": 869,
     "price": 819,
-    "color": "silver",
+    "colour": "silver",
     "image": "img/tablets/apple-ipad-pro-11-2021/silver/00.webp",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
@@ -2247,7 +2247,7 @@
     "capacity": "1TB",
     "fullPrice": 899,
     "price": 879,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
@@ -2261,7 +2261,7 @@
     "capacity": "1TB",
     "fullPrice": 899,
     "price": 879,
-    "color": "silver",
+    "colour": "silver",
     "image": "img/tablets/apple-ipad-pro-11-2021/silver/00.webp",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
@@ -2275,7 +2275,7 @@
     "capacity": "2TB",
     "fullPrice": 999,
     "price": 939,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
@@ -2289,7 +2289,7 @@
     "capacity": "2TB",
     "fullPrice": 999,
     "price": 939,
-    "color": "silver",
+    "colour": "silver",
     "image": "img/tablets/apple-ipad-pro-11-2021/silver/00.webp",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
@@ -2303,7 +2303,7 @@
     "capacity": "256GB",
     "fullPrice": 749,
     "price": 699,
-    "color": "rose gold",
+    "colour": "rose gold",
     "image": "img/tablets/apple-ipad-air-4th-gen/rose-gold/00.webp",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
@@ -2317,7 +2317,7 @@
     "capacity": "64GB",
     "fullPrice": 599,
     "price": 549,
-    "color": "rose gold",
+    "colour": "rose gold",
     "image": "img/tablets/apple-ipad-air-4th-gen/rose-gold/00.webp",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
@@ -2331,7 +2331,7 @@
     "capacity": "256GB",
     "fullPrice": 749,
     "price": 699,
-    "color": "silver",
+    "colour": "silver",
     "image": "img/tablets/apple-ipad-air-4th-gen/silver/00.webp",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
@@ -2345,7 +2345,7 @@
     "capacity": "64GB",
     "fullPrice": 599,
     "price": 549,
-    "color": "silver",
+    "colour": "silver",
     "image": "img/tablets/apple-ipad-air-4th-gen/silver/00.webp",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
@@ -2359,7 +2359,7 @@
     "capacity": "256GB",
     "fullPrice": 749,
     "price": 699,
-    "color": "green",
+    "colour": "green",
     "image": "img/tablets/apple-ipad-air-4th-gen/green/00.webp",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
@@ -2373,7 +2373,7 @@
     "capacity": "64GB",
     "fullPrice": 599,
     "price": 549,
-    "color": "green",
+    "colour": "green",
     "image": "img/tablets/apple-ipad-air-4th-gen/green/00.webp",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
@@ -2387,7 +2387,7 @@
     "capacity": "256GB",
     "fullPrice": 749,
     "price": 699,
-    "color": "sky-blue",
+    "colour": "sky-blue",
     "image": "img/tablets/apple-ipad-air-4th-gen/sky-blue/00.webp",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
@@ -2401,7 +2401,7 @@
     "capacity": "64GB",
     "fullPrice": 599,
     "price": 549,
-    "color": "sky-blue",
+    "colour": "sky-blue",
     "image": "img/tablets/apple-ipad-air-4th-gen/sky-blue/00.webp",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
@@ -2415,7 +2415,7 @@
     "capacity": "256GB",
     "fullPrice": 649,
     "price": 599,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-mini-6th-gen/spacegray/00.webp",
     "screen": "8.3' Liquid Retina",
     "ram": "4GB",
@@ -2429,7 +2429,7 @@
     "capacity": "64GB",
     "fullPrice": 499,
     "price": 469,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-mini-6th-gen/spacegray/00.webp",
     "screen": "8.3' Liquid Retina",
     "ram": "4GB",
@@ -2443,7 +2443,7 @@
     "capacity": "256GB",
     "fullPrice": 649,
     "price": 599,
-    "color": "starlight",
+    "colour": "starlight",
     "image": "img/tablets/apple-ipad-mini-6th-gen/starlight/00.webp",
     "screen": "8.3' Liquid Retina",
     "ram": "4GB",
@@ -2457,7 +2457,7 @@
     "capacity": "64GB",
     "fullPrice": 499,
     "price": 469,
-    "color": "starlight",
+    "colour": "starlight",
     "image": "img/tablets/apple-ipad-mini-6th-gen/starlight/00.webp",
     "screen": "8.3' Liquid Retina",
     "ram": "4GB",
@@ -2471,7 +2471,7 @@
     "capacity": "256GB",
     "fullPrice": 649,
     "price": 599,
-    "color": "pink",
+    "colour": "pink",
     "image": "img/tablets/apple-ipad-mini-6th-gen/pink/00.webp",
     "screen": "8.3' Liquid Retina",
     "ram": "4GB",
@@ -2485,7 +2485,7 @@
     "capacity": "64GB",
     "fullPrice": 499,
     "price": 469,
-    "color": "pink",
+    "colour": "pink",
     "image": "img/tablets/apple-ipad-mini-6th-gen/pink/00.webp",
     "screen": "8.3' Liquid Retina",
     "ram": "4GB",
@@ -2499,7 +2499,7 @@
     "capacity": "128GB",
     "fullPrice": 429,
     "price": 399,
-    "color": "gold",
+    "colour": "gold",
     "image": "img/tablets/apple-ipad-10-2-2020/gold/00.webp",
     "screen": "10.2' Retina",
     "ram": "3GB",
@@ -2513,7 +2513,7 @@
     "capacity": "32GB",
     "fullPrice": 329,
     "price": 299,
-    "color": "gold",
+    "colour": "gold",
     "image": "img/tablets/apple-ipad-10-2-2020/gold/00.webp",
     "screen": "10.2' Retina",
     "ram": "3GB",
@@ -2527,7 +2527,7 @@
     "capacity": "128GB",
     "fullPrice": 429,
     "price": 399,
-    "color": "silver",
+    "colour": "silver",
     "image": "img/tablets/apple-ipad-10-2-2020/silver/00.webp",
     "screen": "10.2' Retina",
     "ram": "3GB",
@@ -2541,7 +2541,7 @@
     "capacity": "32GB",
     "fullPrice": 329,
     "price": 299,
-    "color": "silver",
+    "colour": "silver",
     "image": "img/tablets/apple-ipad-10-2-2020/silver/00.webp",
     "screen": "10.2' Retina",
     "ram": "3GB",
@@ -2555,7 +2555,7 @@
     "capacity": "128GB",
     "fullPrice": 429,
     "price": 399,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-10-2-2020/spacegray/00.webp",
     "screen": "10.2' Retina",
     "ram": "3GB",
@@ -2569,7 +2569,7 @@
     "capacity": "32GB",
     "fullPrice": 329,
     "price": 299,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-10-2-2020/spacegray/00.webp",
     "screen": "10.2' Retina",
     "ram": "3GB",
@@ -2583,7 +2583,7 @@
     "capacity": "256GB",
     "fullPrice": 549,
     "price": 499,
-    "color": "silver",
+    "colour": "silver",
     "image": "img/tablets/apple-ipad-mini-5th-gen/silver/00.webp",
     "screen": "7.9' Retina",
     "ram": "3GB",
@@ -2597,7 +2597,7 @@
     "capacity": "64GB",
     "fullPrice": 549,
     "price": 499,
-    "color": "silver",
+    "colour": "silver",
     "image": "img/tablets/apple-ipad-mini-5th-gen/silver/00.webp",
     "screen": "7.9' Retina",
     "ram": "3GB",
@@ -2611,7 +2611,7 @@
     "capacity": "256GB",
     "fullPrice": 549,
     "price": 499,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-mini-5th-gen/spacegray/00.webp",
     "screen": "7.9' Retina",
     "ram": "3GB",
@@ -2625,7 +2625,7 @@
     "capacity": "64GB",
     "fullPrice": 549,
     "price": 499,
-    "color": "spacegray",
+    "colour": "spacegray",
     "image": "img/tablets/apple-ipad-mini-5th-gen/spacegray/00.webp",
     "screen": "7.9' Retina",
     "ram": "3GB",
@@ -2639,7 +2639,7 @@
     "capacity": "256GB",
     "fullPrice": 549,
     "price": 499,
-    "color": "gold",
+    "colour": "gold",
     "image": "img/tablets/apple-ipad-mini-5th-gen/gold/00.webp",
     "screen": "7.9' Retina",
     "ram": "3GB",
@@ -2653,7 +2653,7 @@
     "capacity": "64GB",
     "fullPrice": 549,
     "price": 499,
-    "color": "gold",
+    "colour": "gold",
     "image": "img/tablets/apple-ipad-mini-5th-gen/gold/00.webp",
     "screen": "7.9' Retina",
     "ram": "3GB",
@@ -2668,7 +2668,7 @@
     "price": 1068,
     "screen": "6.1' OLED",
     "capacity": "128GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
@@ -2682,7 +2682,7 @@
     "price": 1220,
     "screen": "6.1' OLED",
     "capacity": "256GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
@@ -2696,7 +2696,7 @@
     "price": 1530,
     "screen": "6.1' OLED",
     "capacity": "512GB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
@@ -2710,7 +2710,7 @@
     "price": 1520,
     "screen": "6.1' OLED",
     "capacity": "1TB",
-    "color": "gold",
+    "colour": "gold",
     "ram": "6GB",
     "year": 2022,
     "image": "img/phones/apple-iphone-11-pro/gold/00.jpg"
