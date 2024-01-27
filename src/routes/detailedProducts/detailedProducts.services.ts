@@ -35,7 +35,3 @@ export const getRecommendedDP = async(productName: ProductName) => {
 
   return products.filter((_, index) => randomIndexes.includes(index));
 };
-
-export const getRecommendedForDP = (productName: ProductName) => {
-  return getRecommendedForPN(productName);
-};
