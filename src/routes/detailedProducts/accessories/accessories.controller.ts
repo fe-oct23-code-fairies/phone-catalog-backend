@@ -5,7 +5,6 @@ import {
   getDPById,
   getDPByNamespace,
   getRecommendedDP,
-
 } from '../detailedProducts.services.js';
 
 export const getAll = async(_: ERequest, res: EResponse) => {

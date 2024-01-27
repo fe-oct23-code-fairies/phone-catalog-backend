@@ -270,7 +270,7 @@ GET `/phones/apple-iphone-11-128gb-black`
   "camera": "12 Mp + 12 Mp + 12MP",
   "zoom": "Digital, 5x",
   "cell": ["GPRS", "EDGE", "WCDMA", "UMTS", "HSPA", "LTE"]
-} 
+}
 ```
 
 GET `/phones/namespace/apple-iphone-11`
@@ -423,4 +423,3 @@ All static file request should be sent on `/static`, followed by their path in `
 GET `/static/img/banner-accessories.png`
 
 Response: ![image](https://github.com/fe-oct23-code-fairies/phone-catalog-backend/assets/55620816/bd8c5ebc-84a1-48ff-bf1b-d2d26e32e13b)
-
