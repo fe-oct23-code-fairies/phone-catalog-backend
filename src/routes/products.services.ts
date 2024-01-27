@@ -5,8 +5,9 @@ import {
 } from './helper.js';
 import { Products } from '../db/models/Product.js';
 import { ProductName } from '../types/DetailedProduct.js';
-import { queryParams } from '../types/QueryParams.js';
+import { SortFields, queryParams } from '../types/QueryParams.js';
 import { Product } from '../types/Product.js';
+import { Sequelize } from 'sequelize';
 
 const AMOUNT_OF_DISCOUNTED = 12;
 const AMOUNT_OF_NEW = 12;
@@ -44,19 +45,16 @@ export const getDPByProductName = (productName: ProductName) => {
 };
 
 export const getDiscountedProducts = async() => {
-  const products = await getAllProducts({});
-
-  const sortedByDiscount = [...products].sort(
-    (a, b) => b.fullPrice - b.price - a.fullPrice + a.price,
-  );
-
-  return sortedByDiscount.slice(0, AMOUNT_OF_DISCOUNTED);
+  return Products.findAll({
+    order: [[Sequelize.literal('"fullPrice" - "price"'), 'DESC']],
+    limit: AMOUNT_OF_DISCOUNTED,
+  });
 };
 
 export const getNewProducts = async() => {
-  const products = await getAllProducts({});
-
-  const sortedByDiscount = [...products].sort((a, b) => b.year - a.year);
-
-  return sortedByDiscount.slice(0, AMOUNT_OF_NEW);
+  return getAllProducts({
+    sortBy: SortFields.Year,
+    sortOrder: 'DESC',
+    limit: AMOUNT_OF_NEW.toString(),
+  });
 };
