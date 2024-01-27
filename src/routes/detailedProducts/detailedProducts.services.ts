@@ -1,22 +1,37 @@
-import { getDPByProductName } from '../products.services.js';
-import { DetailedDB, ProductName } from '../../types/DetailedProduct.js';
-import { db } from '../dataGetter.js';
+import { getRandomIndexes } from '../helper.js';
+import { DetailedProducts } from '../../db/models/DetailedProduct.js';
+import { ProductName } from '../../types/DetailedProduct.js';
+import { getAllProducts } from '../products.services.js';
+
+const AMOUNT_OF_RECOMMENDED = 12;
 
 export const getAllDP = (productName: ProductName) => {
-  return getDPByProductName(productName);
+  return getAllProducts({ productType: productName });
 };
 
-export const getDPById = (id: string, productName: ProductName) => {
-  return db[productName as keyof DetailedDB].find(
-    (product) => product.id === id,
-  );
+export const getDPById = (id: string) => {
+  return DetailedProducts.findByPk(id);
 };
 
-export const getDPByNamespace = (
-  namespaceId: string,
-  productName: ProductName,
-) => {
-  return db[productName as keyof DetailedDB].filter(
-    (product) => product.namespaceId === namespaceId,
+export const getDPByNamespace = (namespaceId: string) => {
+  return DetailedProducts.findAll({
+    where: {
+      namespaceId,
+    },
+  });
+};
+
+export const getRecommendedDP = async(productName: ProductName) => {
+  const products = await getAllProducts({ productType: productName });
+
+  if (products.length <= AMOUNT_OF_RECOMMENDED) {
+    return products;
+  }
+
+  const randomIndexes = getRandomIndexes(
+    AMOUNT_OF_RECOMMENDED,
+    products.length,
   );
+
+  return products.filter((_, index) => randomIndexes.includes(index));
 };

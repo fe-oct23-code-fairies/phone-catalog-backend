@@ -1,35 +1,21 @@
-/* eslint-disable max-len */
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-console */
 
-import cors from 'cors';
 import dotenv from 'dotenv';
-import express from 'express';
-import path from 'path';
 
-import { accessoriesRouter } from './routes/detailedProducts/accessories/accessories.routes.js';
-import { phonesRouter } from './routes/detailedProducts/phones/phones.routes.js';
-import { tabletsRouter } from './routes/detailedProducts/tablets/tablets.routes.js';
-import { productsRouter } from './routes/products/products.routes.js';
+import { connectToDb, sequelize } from './db/db.js';
+import { serverInit } from './server.js';
 
 dotenv.config();
 
-const app = express();
-const dirname = path.dirname('.');
+const app = async() => {
+  const app = serverInit();
 
-app.use(express.json());
-app.use(cors());
+  await connectToDb(sequelize);
 
-app.get('/', (_, res) => {
-  res.send('https://www.youtube.com/watch?v=G510jeWiaV0');
-});
+  app.listen(process.env.PORT);
 
-app.use('/static', express.static(path.join(dirname, 'public')));
+  console.log(`App is listening on port ${process.env.PORT}`);
+};
 
-app.use('/accessories', accessoriesRouter);
-app.use('/phones', phonesRouter);
-app.use('/tablets', tabletsRouter);
-app.use('/products', productsRouter);
-
-app.listen(process.env.PORT);
-
-console.log(`App is listening on port ${process.env.PORT}`);
+app();

@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-interface Description {
+export interface Description {
   title: string;
   text: string[];
 }
@@ -12,8 +12,8 @@ interface DetailedProduct {
   capacity: string;
   priceRegular: number;
   priceDiscount: number;
-  colorsAvailable: string[];
-  color: string;
+  coloursAvailable: string[];
+  colour: string;
   images: string[];
   description: Description[];
   screen: string;

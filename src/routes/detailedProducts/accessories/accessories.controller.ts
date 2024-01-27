@@ -4,16 +4,17 @@ import {
   getAllDP,
   getDPById,
   getDPByNamespace,
+  getRecommendedDP,
 } from '../detailedProducts.services.js';
 
-export const getAll = (_: ERequest, res: EResponse) => {
-  res.status(200).send(getAllDP(ProductName.Accessories));
+export const getAll = async(_: ERequest, res: EResponse) => {
+  res.status(200).send(await getAllDP(ProductName.Accessories));
 };
 
-export const getByID = (req: ERequest, res: EResponse) => {
+export const getByID = async(req: ERequest, res: EResponse) => {
   const { id } = req.params;
 
-  const accessory = getDPById(id, ProductName.Accessories);
+  const accessory = await getDPById(id);
 
   if (!accessory) {
     res.status(400).send('Not found');
@@ -24,9 +25,9 @@ export const getByID = (req: ERequest, res: EResponse) => {
   res.status(200).send(accessory);
 };
 
-export const getByNamespace = (req: ERequest, res: EResponse) => {
+export const getByNamespace = async(req: ERequest, res: EResponse) => {
   const { namespaceId } = req.params;
-  const accessories = getDPByNamespace(namespaceId, ProductName.Accessories);
+  const accessories = await getDPByNamespace(namespaceId);
 
   if (accessories.length === 0) {
     res.status(400).send('Not found');
@@ -35,4 +36,16 @@ export const getByNamespace = (req: ERequest, res: EResponse) => {
   }
 
   res.status(200).send(accessories);
+};
+
+export const getRecommended = async(_: ERequest, res: EResponse) => {
+  const tablets = await getRecommendedDP(ProductName.Accessories);
+
+  if (tablets.length === 0) {
+    res.status(400).send('Not found');
+
+    return;
+  }
+
+  res.status(200).send(tablets);
 };

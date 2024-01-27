@@ -7,7 +7,7 @@ export interface Product {
   price: number;
   screen: string;
   capacity: string;
-  color: string;
+  colour: string;
   ram: string;
   year: number;
   image: string;
