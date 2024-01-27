@@ -58,6 +58,8 @@
   },
   "homepage": "https://github.com/fe-oct23-code-fairies/phone-catalog-backend#readme",
   "lint-staged": {
-    "*.ts": "npm run fix-code"
+    "*.ts": "npm run fix-code",
+    "*.cjs": "npm run fix-code",
+    "*.js": "npm run fix-code"
   }
 }

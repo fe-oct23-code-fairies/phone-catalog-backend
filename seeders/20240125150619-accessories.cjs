@@ -9,7 +9,7 @@ module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.bulkInsert(
       TABLE_NAME,
-      accessories.map(accessory => {
+      accessories.map((accessory) => {
         const description = accessory.description;
 
         return {
@@ -22,7 +22,7 @@ module.exports = {
 
   async down(queryInterface, Sequelize) {
     await queryInterface.bulkDelete(TABLE_NAME, {
-      id: accessories.map(accessory => accessory.id),
+      id: accessories.map((accessory) => accessory.id),
     });
   },
 };

@@ -12,7 +12,7 @@ module.exports = {
 
   async down(queryInterface, Sequelize) {
     await queryInterface.bulkDelete(TABLE_NAME, {
-      id: products.map(product => product.id),
+      id: products.map((product) => product.id),
     });
   },
 };
