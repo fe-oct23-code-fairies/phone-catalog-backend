@@ -5,6 +5,7 @@ import {
   getDPById,
   getDPByNamespace,
   getRecommendedDP,
+
 } from '../detailedProducts.services.js';
 
 export const getAll = async(_: ERequest, res: EResponse) => {
@@ -39,13 +40,13 @@ export const getByNamespace = async(req: ERequest, res: EResponse) => {
 };
 
 export const getRecommended = async(_: ERequest, res: EResponse) => {
-  const tablets = await getRecommendedDP(ProductName.Accessories);
+  const accessories = await getRecommendedDP(ProductName.Accessories);
 
-  if (tablets.length === 0) {
+  if (accessories.length === 0) {
     res.status(400).send('Not found');
 
     return;
   }
 
-  res.status(200).send(tablets);
+  res.status(200).send(accessories);
 };

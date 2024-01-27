@@ -48,3 +48,15 @@ export const getRecommended = async(_: ERequest, res: EResponse) => {
 
   res.status(200).send(tablets);
 };
+
+export const getRecommended = (_: ERequest, res: EResponse) => {
+  const tablets = getRecommendedForDP(ProductName.Tablets);
+
+  if (tablets.length === 0) {
+    res.status(400).send('Not found');
+
+    return;
+  }
+
+  res.status(200).send(tablets);
+};

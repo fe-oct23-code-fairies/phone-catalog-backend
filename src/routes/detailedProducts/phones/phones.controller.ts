@@ -39,13 +39,13 @@ export const getByNamespace = async(req: ERequest, res: EResponse) => {
 };
 
 export const getRecommended = async(_: ERequest, res: EResponse) => {
-  const tablets = await getRecommendedDP(ProductName.Phones);
+  const phones = await getRecommendedDP(ProductName.Phones);
 
-  if (tablets.length === 0) {
+  if (phones.length === 0) {
     res.status(400).send('Not found');
 
     return;
   }
 
-  res.status(200).send(tablets);
+  res.status(200).send(phones);
 };

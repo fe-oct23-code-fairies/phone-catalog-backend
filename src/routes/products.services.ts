@@ -60,3 +60,34 @@ export const getNewProducts = async() => {
 
   return sortedByDiscount.slice(0, AMOUNT_OF_NEW);
 };
+
+export const getRecommendedForPN = (productName: ProductName) => {
+  const productOfThisType = products.filter(
+    (product) => product.category === productName,
+  );
+
+  if (productOfThisType.length <= AMOUNT_OF_RECOMMENDED) {
+    return productOfThisType;
+  }
+
+  const randomIndexes = getRandomIndexes(
+    AMOUNT_OF_RECOMMENDED,
+    productOfThisType.length,
+  );
+
+  return productOfThisType.filter((_, index) => randomIndexes.includes(index));
+};
+
+export const getDiscountedProducts = () => {
+  const sortedByDiscount = [...products].sort(
+    (a, b) => b.fullPrice - b.price - a.fullPrice + a.price,
+  );
+
+  return sortedByDiscount.slice(0, AMOUNT_OF_DISCOUNTED);
+};
+
+export const getNewProducts = () => {
+  const sortedByDiscount = [...products].sort((a, b) => b.year - a.year);
+
+  return sortedByDiscount.slice(0, AMOUNT_OF_NEW);
+};
