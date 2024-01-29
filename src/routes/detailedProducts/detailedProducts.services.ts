@@ -1,28 +1,28 @@
-import { getRandomIndexes } from '../helper.js';
+import { queryParams } from 'types/QueryParams.js';
 import { DetailedProducts } from '../../db/models/DetailedProduct.js';
 import { ProductName } from '../../types/DetailedProduct.js';
-import { getAllProducts } from '../products.services.js';
+import { getRandomIndexes } from '../helper.js';
+import { getAllProducts, getProductsNotEqToPN } from '../products.services.js';
 
 const AMOUNT_OF_RECOMMENDED = 12;
 
-export const getAllDP = (productName: ProductName) => {
-  return getAllProducts({ productType: productName });
+export const getAllDP = () => {
+  return DetailedProducts.findAll();
+};
+
+export const getAllDPByType = (
+  productName: ProductName,
+  queryParams: queryParams,
+) => {
+  return getAllProducts({ productType: productName, ...queryParams });
 };
 
 export const getDPById = (id: string) => {
   return DetailedProducts.findByPk(id);
 };
 
-export const getDPByNamespace = (namespaceId: string) => {
-  return DetailedProducts.findAll({
-    where: {
-      namespaceId,
-    },
-  });
-};
-
-export const getRecommendedDP = async(productName: ProductName) => {
-  const products = await getAllProducts({ productType: productName });
+export const getRecommendedDP = async(productName: string) => {
+  const products = await getProductsNotEqToPN(productName);
 
   if (products.length <= AMOUNT_OF_RECOMMENDED) {
     return products;
@@ -33,5 +33,5 @@ export const getRecommendedDP = async(productName: ProductName) => {
     products.length,
   );
 
-  return products.filter((_, index) => randomIndexes.includes(index));
+  return randomIndexes.map((index) => products[index]);
 };

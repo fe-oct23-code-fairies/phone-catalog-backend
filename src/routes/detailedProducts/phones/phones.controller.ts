@@ -1,51 +1,17 @@
 import { Request as ERequest, Response as EResponse } from 'express';
 import { ProductName } from '../../../types/DetailedProduct.js';
-import {
-  getAllDP,
-  getDPById,
-  getDPByNamespace,
-  getRecommendedDP,
-} from '../detailedProducts.services.js';
+import { getAllDPByType } from '../detailedProducts.services.js';
+import { SortFields } from '../../../types/QueryParams.js';
 
-export const getAll = async(_: ERequest, res: EResponse) => {
-  res.status(200).send(await getAllDP(ProductName.Phones));
-};
+export const getAll = async(req: ERequest, res: EResponse) => {
+  const { limit, page, sortBy, sortOrder } = req.query;
 
-export const getByID = async(req: ERequest, res: EResponse) => {
-  const { id } = req.params;
-
-  const phone = await getDPById(id);
-
-  if (!phone) {
-    res.status(400).send('Not found');
-
-    return;
-  }
-
-  res.status(200).send(phone);
-};
-
-export const getByNamespace = async(req: ERequest, res: EResponse) => {
-  const { namespaceId } = req.params;
-  const phones = await getDPByNamespace(namespaceId);
-
-  if (phones.length === 0) {
-    res.status(400).send('Not found');
-
-    return;
-  }
-
-  res.status(200).send(phones);
-};
-
-export const getRecommended = async(_: ERequest, res: EResponse) => {
-  const phones = await getRecommendedDP(ProductName.Phones);
-
-  if (phones.length === 0) {
-    res.status(400).send('Not found');
-
-    return;
-  }
-
-  res.status(200).send(phones);
+  res.status(200).send(
+    await getAllDPByType(ProductName.Phones, {
+      limit: limit as string,
+      page: page as string,
+      sortBy: sortBy as SortFields,
+      sortOrder: sortOrder as string,
+    }),
+  );
 };

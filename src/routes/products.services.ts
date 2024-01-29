@@ -1,13 +1,13 @@
+import { Op, Sequelize } from 'sequelize';
+import { Products } from '../db/models/Product.js';
+import { ProductName } from '../types/DetailedProduct.js';
+import { Product } from '../types/Product.js';
+import { SortFields, queryParams } from '../types/QueryParams.js';
 import {
   filterProductsByType,
   getProductsOnPage,
   sortProducts,
 } from './helper.js';
-import { Products } from '../db/models/Product.js';
-import { ProductName } from '../types/DetailedProduct.js';
-import { SortFields, queryParams } from '../types/QueryParams.js';
-import { Product } from '../types/Product.js';
-import { Sequelize } from 'sequelize';
 
 const AMOUNT_OF_DISCOUNTED = 12;
 const AMOUNT_OF_NEW = 12;
@@ -36,10 +36,28 @@ export const getProductByID = (id: number) => {
   return Products.findByPk(id);
 };
 
-export const getDPByProductName = (productName: ProductName) => {
+export const getProductByItemID = (itemId: string) => {
+  return Products.findOne({
+    where: {
+      itemId,
+    },
+  });
+};
+
+export const getProductsByProductName = (productName: ProductName) => {
   return Products.findAll({
     where: {
       category: productName,
+    },
+  });
+};
+
+export const getProductsNotEqToPN = (productName: string) => {
+  return Products.findAll({
+    where: {
+      category: {
+        [Op.ne]: productName,
+      },
     },
   });
 };
