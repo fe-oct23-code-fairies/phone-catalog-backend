@@ -33,6 +33,5 @@ export const getRecommendedDP = async(productName: string) => {
     products.length,
   );
 
-  // return products.filter((_, index) => randomIndexes.includes(index));
   return randomIndexes.map((index) => products[index]);
 };
