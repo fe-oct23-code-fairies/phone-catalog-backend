@@ -15,7 +15,3 @@ productsRouter.get('/discount', getDiscounted);
 productsRouter.get('/new', getNew);
 
 productsRouter.get('/:id', getByID);
-
-productsRouter.get('/discount', getDiscounted);
-
-productsRouter.get('/new', getNew);

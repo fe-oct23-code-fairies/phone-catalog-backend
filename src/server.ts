@@ -8,6 +8,7 @@ import { accessoriesRouter } from './routes/detailedProducts/accessories/accesso
 import { phonesRouter } from './routes/detailedProducts/phones/phones.routes.js';
 import { tabletsRouter } from './routes/detailedProducts/tablets/tablets.routes.js';
 import { productsRouter } from './routes/products/products.routes.js';
+import { detailedProductsRouter } from './routes/detailedProducts/detailedProducts.routes.js';
 
 export const serverInit = () => {
   const app = express();
@@ -25,7 +26,9 @@ export const serverInit = () => {
   app.use('/accessories', accessoriesRouter);
   app.use('/phones', phonesRouter);
   app.use('/tablets', tabletsRouter);
+
   app.use('/products', productsRouter);
+  app.use('/products-detailed', detailedProductsRouter);
 
   return app;
 };
