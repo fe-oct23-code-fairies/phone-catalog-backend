@@ -382,6 +382,70 @@ GET `/products-detailed/apple-iphone-11-128gb-black/recommended`
 ]
 ```
 
+## Authentication
+
+### Sign up
+
+POST `/auth/signup`
+
+Request body:
+
+```
+{
+  "email": "warspite@gmail.com",
+  "password": "warspitePass"
+}
+```
+
+Response:
+
+```
+{
+  "id": "a053adb8-cefd-428c-bc7a-9b32af31f057",
+  "email": "warspite@gmail.com",
+  "password": "U2FsdGVkX1/nzYi4XGjT7kktstboDqkCXAx6WRIFxi8="
+}
+```
+
+Error response:
+
+```
+{
+  "error": "Such user already exists!"
+}
+```
+
+### Sign in
+
+POST `/auth/signin`
+
+Request body:
+
+```
+{
+  "email": "warspite@gmail.com",
+  "password": "warspitePass"
+}
+```
+
+Response:
+
+```
+{
+  "id": "a053adb8-cefd-428c-bc7a-9b32af31f057",
+  "email": "warspite@gmail.com",
+  "password": "U2FsdGVkX1/nzYi4XGjT7kktstboDqkCXAx6WRIFxi8="
+}
+```
+
+Error response:
+
+```
+{
+  "error": "Invalid password!"
+}
+```
+
 ## Static files
 
 All static file request should be sent on `/static`, followed by their path in `public` folder
